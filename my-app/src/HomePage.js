@@ -4,9 +4,7 @@ function HomePage() {
   return (
     <div className="HomePage">
       <header className="HomeHeader">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1 className="SiteTitle">WebRoulette</h1>
       </header>
     </div>
   );

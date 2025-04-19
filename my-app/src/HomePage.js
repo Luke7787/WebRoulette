@@ -6,8 +6,13 @@ function HomePage() {
       <header className="HomeHeader">
         <h1 className="SiteTitle">WebRoulette</h1>
       </header>
-      <button className="Button Login">Login</button>
-      <button className="Button Guest">Guest</button>
+      <p className="Description">
+      Welcome to WebRoulette! With just a click, <br /> you’ll be taken to a random website on the internet!
+      </p>
+      <div className="ButtonGroup">
+        <button className="Button Login">Login</button>
+        <button className="Button Guest">Guest</button>
+      </div>
     </div>
   );
 }

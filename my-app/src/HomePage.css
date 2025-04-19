@@ -1,7 +1,10 @@
 .HomePage {
   background-color: #669bbc;
+  display: flex; 
+  flex-direction: column;
   text-align: center;
   min-height: 100vh;
+  align-items: center;
 }
 
 .HomeHeader {
@@ -23,13 +26,19 @@
 .Button {
   padding: 10px 20px; /* Adds space inside the button, [height from top to bottom, height from left to right] */
   border-radius: 8px; /* Rounds the corner */
-  margin-top: 50px;
+  margin-top: 15px;
   font-size: 1rem;
   cursor: pointer;    /* Changes the cursor to a "hand" when you hover over the button. */
   margin-left: 15px;       /* Adds space around the button, outside of it. */
   margin-right: 15px;
   border: none;
   color: #fdf0d5;
+}
+
+.ButtonGroup {
+  justify-content: center; /* centers buttons horizontally */
+  display: flex;
+  gap: 20px;               /* space between buttons */
 }
 
 .Button:hover {
@@ -45,4 +54,13 @@
 .Guest {
   background-color: #e2856e;
   color: white;
+}
+
+.Description {
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #fdf0d5;
+  max-width: 50%;
 }

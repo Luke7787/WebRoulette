@@ -7,7 +7,7 @@
 .HomeHeader {
   background-color: #669bbc;
   justify-content: center;
-  padding-top: 1rem;
+  padding-top: 3rem;
   font-size: 2rem;
   color: white;
   display: flex;
@@ -17,5 +17,32 @@
 .SiteTitle{
   font-weight: bold;
   font-size: 2rem;
+  color: #fdf0d5;
+}
+
+.Button {
+  padding: 10px 20px; /* Adds space inside the button, [height from top to bottom, height from left to right] */
+  border-radius: 8px; /* Rounds the corner */
+  margin-top: 50px;
+  font-size: 1rem;
+  cursor: pointer;    /* Changes the cursor to a "hand" when you hover over the button. */
+  margin-left: 15px;       /* Adds space around the button, outside of it. */
+  margin-right: 15px;
+  border: none;
+  color: #fdf0d5;
+}
+
+.Button:hover {
+  background-color: #336683;  /* A darker shade of the original color */
+  transform: scale(1.1);       /* Slightly enlarge the button on hover */
+}
+
+.Login {
+  background-color: #92c39e;
+  color: white;
+}
+
+.Guest {
+  background-color: #e2856e;
   color: white;
 }

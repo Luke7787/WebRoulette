@@ -20,14 +20,15 @@
 .SiteTitle{
   font-weight: bold;
   font-size: 2rem;
-  color: #fdf0d5;
+  color: #29335c;
 }
 
 .Button {
   padding: 10px 20px; /* Adds space inside the button, [height from top to bottom, height from left to right] */
   border-radius: 8px; /* Rounds the corner */
   margin-top: 15px;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   cursor: pointer;    /* Changes the cursor to a "hand" when you hover over the button. */
   margin-left: 15px;       /* Adds space around the button, outside of it. */
   margin-right: 15px;
@@ -48,19 +49,20 @@
 
 .Login {
   background-color: #92c39e;
-  color: white;
+  color: #fdf0d5;
 }
 
 .Guest {
   background-color: #e2856e;
-  color: white;
+  color: #fdf0d5;
 }
 
 .Description {
   padding-top: 15px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1.25rem;
-  color: #fdf0d5;
+  color: #29335c;
   max-width: 50%;
+  line-height: 1.6;
 }
